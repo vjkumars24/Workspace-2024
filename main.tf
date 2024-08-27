@@ -14,8 +14,8 @@ terraform {
 }
 
 
-resource "aws_s3_bucket" "mys3bucket211" {
-  bucket = "my-s3-bucket-24-11-2024"
+resource "aws_s3_bucket" "mys3bucket213" {
+  bucket = "my-s3-bucket-24-11-2026"
   acl    = "private"
   versioning {
     enabled = true
